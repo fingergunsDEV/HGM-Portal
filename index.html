@@ -31,7 +31,7 @@
 
         .right-section {
             width: 60%;
-            background: linear-gradient(135deg, #0074d9, #282556);
+            background: linear-gradient(135deg, #007fff, #282556);
             color: #fff;
             display: flex;
             flex-direction: column;
@@ -54,7 +54,7 @@
         }
 
         .right-section .hashtag {
-            color: #ff69b4;
+            color: #00ffe9;
         }
 
         .right-section p {
@@ -98,7 +98,7 @@
         .sign-in-btn {
             width: 100%;
             padding: 10px;
-            background: linear-gradient(to right, #0d7bdb, #0d7000);
+            background: linear-gradient(to top, #333bbb, #0074d9);
             color: #fff;
             border: none;
             border-radius: 5px;
@@ -109,8 +109,11 @@
 
         .create-account {
             display: block;
+					background:#008;
+					padding:12px 0;
+					border-radius:6px;
             text-align: center;
-            color: #8a2be2;
+            color: #298ccc;
             font-size: 14px;
             margin-bottom: 20px;
             text-decoration: none;
@@ -135,7 +138,7 @@
         }
 
         .google-btn {
-            background-color: #fff;
+            background-color: #f2f2f2;
             border: 1px solid #ccc;
             color: #000;
         }
@@ -185,8 +188,9 @@
                 <button type="submit" class="sign-in-btn">Sign in</button>
             </form>
             <a href="#" class="create-account">CREATE AN ACCOUNT</a>
-            <div class="social-login">
-                <button class="google-btn"><img src="https://www.google.com/favicon.ico" alt="Google"> Sign in with Google</button>
+            <div class="social-login" >
+                <button class="google-btn">
+								<img src="https://www.google.com/favicon.ico" alt="Google"> Sign in with Google</button>
                 <button class="facebook-btn"><img src="https://www.facebook.com/favicon.ico" alt="Facebook"> Sign in with Facebook</button>
                 <button class="github-btn"><img src="https://www.github.com/favicon.ico" alt="GitHub"> Sign in with GitHub</button>
                 
@@ -197,13 +201,13 @@
                 <a href="#">Can't log in? Click here.</a>
             </div>
         </div>
-        <div class="right-section">
-            <div class="logo">Holistic Growth Marketing</div>
+				<div class="right-section" style="display:flex;">
+       <img src="https://cdn.prod.website-files.com/65db95957d65c02ae759f762/66e3098f363782169710b708_White%20New%20Logo%20AUG%202024%201.avif" style="width:200px;height:auto;position:absolute;top:5%;left:68%";>
             <h1>Transform your marketing with <span class="hashtag">#HolisticBusinessIntelligence</span></h1>
             <p>From tasks and workflows to apps and systems, build and automate anything in one powerful visual platform.</p>
             <p class="trusted">Trusted by 500,000+ Makers | Free forever</p>
         </div>
-    </div>
+ 
 
     <script>
         document.getElementById('loginForm').addEventListener('submit', function(event) {
